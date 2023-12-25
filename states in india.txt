@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+int main()
+{
+    char letter1 ='A';
+    char letter2 ='B';
+    char letter3 ='C';
+    char letter4 ='D';
+    int optA = 22;
+    int optB = 21;
+    int optC = 16;
+    int optD = 18;
+    printf("How many states are in india ? \n");
+    printf("%c. %d \n",letter1,optA);
+    printf("%c. %d \n",letter2,optB);
+    printf("%c. %d \n",letter3,optC);
+    printf("%c. %d ",letter4,optD);
+    return 0;
+    }

@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int firstnumber = 2;
+    int secondnumber = 5;
+    printf("first number is %d \n",firstnumber);
+    printf("second number is %d \n",secondnumber);
+    printf("%d \n",firstnumber);
+    printf("%d \n",secondnumber);
+    return 0;
+}

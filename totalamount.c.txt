@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+ int ticket = 100;
+ int popcorn = 50;
+ int discount = 20;
+ int total = ticket+popcorn-discount;
+ printf("%d \n", ticket);
+ printf("%d \n", popcorn);
+ printf(" %d \n", discount);
+printf("totalamount is %d", total );
+ return 0;
+}

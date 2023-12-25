@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int iDistance;
+    printf("Enter the Distance:\n");
+    scanf("%d",&iDistance);
+    if(iDistance<20){
+    printf("Please maintance distance %d\n",iDistance);
+    }
+    else{
+    printf("Have a nice day %d\n",iDistance);
+    }
+
+    return 0;
+}

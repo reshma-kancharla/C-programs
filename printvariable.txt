@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{
+    char alphabet ='z';
+    char letter = alphabet;
+    //printf("My letter is %c ",alphabet);
+    printf("alphabet is %c \n",alphabet);
+    printf("letter is %c",letter);
+    return 0;
+}
+

@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    char book[21];
+    printf("What is your book name ? \n");
+    scanf("%[^\n]s", book);
+    printf("your selected book is %s",book);
+    return 0;
+}

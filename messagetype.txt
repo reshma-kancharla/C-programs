@@ -1,0 +1,19 @@
+
+#include <Keyboard.h>
+
+void setup() {
+  // Initialize the USB keyboard
+  Keyboard.begin();
+  delay(10000); // Delay for 2 seconds to ensure that the computer detects the keyboard properly
+  for (int i = 0; i < 250 ; i++) {
+    Keyboard.print("Hello pichoda");
+    // Press Enter key
+    Keyboard.write(KEY_RETURN);
+    // Release all keys
+  }
+  Keyboard.releaseAll();
+}
+
+void loop()   
+{
+}
