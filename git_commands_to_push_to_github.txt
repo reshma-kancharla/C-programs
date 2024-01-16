@@ -1,0 +1,6 @@
+git add .
+git status -s
+git add .
+git status -s
+git commit -m "added BookReadingSpeedCalculator and some other codes"
+git push origin master

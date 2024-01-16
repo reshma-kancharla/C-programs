@@ -9,8 +9,9 @@ int main()
     int iPages;
     char sUserAns[20];
     int iMin=20;
-    float wpm;
+    float fWpm;
     int iLstpgLines;
+    int iSpeed;
     printf("No of letters in a line:\n");
     scanf("%d",&iLetters);
     printf("Average letters in a word:\n");
@@ -25,14 +26,15 @@ int main()
     scanf("%s",sUserAns);
     if(strcmp(sUserAns,"Yes")==0)
     {
-    wpm = ((iLetters/iWords)*(iLines*iPages))/iMin;
+    fWpm = ((iLetters/iWords)*(iLines*iPages))/iMin;
     }
     else{
     printf("No of lines you have read in last page");
     scanf("%d",&iLstpgLines);
-    wpm = ((iLetters/iWords)*(iLines*iPages+iLstpgLines))/iMin;
+    fWpm = ((iLetters/iWords)*(iLines*iPages+iLstpgLines))/iMin;
     }
-    printf("Your book reading speed in wpm is %f",wpm);
+    printf("Your book reading speed in wpm is %f",fWpm);
+    printf("Do you want to track the book reading speed of another person?"); 
+    scanf("%d",&iSpeed);
     return 0;
-}
-
+    }
